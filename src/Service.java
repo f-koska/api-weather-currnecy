@@ -48,7 +48,7 @@ public class Service  {
         URL url = null;
         try {
             miasto += "," + code;
-            url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+miasto+"&APPID=7bb25ef0d88254dead906c201748e489");
+            url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+miasto+"&APPID=" + key);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
